@@ -14,7 +14,23 @@ At the end of the course of studies, students will have acquired
 5. the skill to write applications using elementary data structures such as 2-D array and strings, etc. 
 
 # **CSCI2510**
+## Computer Organization
 2020-2021 Term 1
+
+This course is to understand how a computer works 
+internally using assembly language.
+
+* Computer Organization
+    * Processor (CPU)
+    * Memory unit
+    * Input/Output units
+    * Interconnection buses
+
+* Assembly Language Programming
+    * Internal coding of information
+    * Number and character representation
+    * Arithmetic operations
+    * Flow of information within a microcomputer
 
 # **CSCI2520**
 ## Data Structures and Applications
