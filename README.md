@@ -101,6 +101,21 @@ Learning Outcome：
 
 3. Students will learn how to apply software engineering techniques for the development of large software projects.
 
+# **CSCI3150**
+## Introduction to Operating Systems
+
+2021-2022 Term 1
+
+Description：
+
+Principles of operating systems: process management, memory management, file system, protection and security. Design and implementation methodology, performance evaluation. Case studies. Concurrent Programming.
+
+Learning Outcome：
+
+1. Understand key operating systems concepts including process management, memory management, file systems, and I/O.
+2. Hands-on experience with operating systems design and implementation.
+3. Insight with both the UNIX and the Windows operating systems
+
 # **CSCI3260**
 ## Principles of Computer Graphics
 
