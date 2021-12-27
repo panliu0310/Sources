@@ -38,3 +38,19 @@ internally using assembly language.
 2019-2020 Term 2
 
 This course formally examines the relationship between abstract data types and data structures. The implementation of abstract data type using various data structures will be discussed. Sample abstract data types including vector, list, stack, queueand tree will be introduced and illustrated with applications such as searching, sorting, etc.
+
+# **CSCI3260**
+## Principles of Computer Graphics
+Description：
+
+This course introduces fundamental computer graphics techniques and algorithms. Topics to be covered include: graphics hardware and interaction devices, transformation of coordination systems, scan conversion algorithms, hidden surface algorithms, illumination models and shading, rendering, texture mapping, computer animation and visualization.
+
+Learning Outcome：
+
+1. Be able to understand fundamental graphics concepts and techniques;
+
+2. Be able to transform, represent and display 2D/3D information on computer display;
+
+3. Be able to perform interactive graphics programming in OpenGL;
+
+4. Be able to produce a short animation sequence;
