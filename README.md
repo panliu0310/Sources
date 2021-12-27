@@ -116,6 +116,11 @@ Learning Outcome：
 2. Hands-on experience with operating systems design and implementation.
 3. Insight with both the UNIX and the Windows operating systems
 
+# **CSCI3170**
+## 
+
+2021-2022 Term 1
+
 # **CSCI3260**
 ## Principles of Computer Graphics
 
