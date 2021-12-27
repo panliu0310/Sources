@@ -41,6 +41,7 @@ This course formally examines the relationship between abstract data types and d
 
 # **CSCI3260**
 ## Principles of Computer Graphics
+2020-2021 Term 1
 Description：
 
 This course introduces fundamental computer graphics techniques and algorithms. Topics to be covered include: graphics hardware and interaction devices, transformation of coordination systems, scan conversion algorithms, hidden surface algorithms, illumination models and shading, rendering, texture mapping, computer animation and visualization.
