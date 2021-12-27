@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://www.cse.cuhk.edu.hk/~chuckjee/2720lab3/index.html -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>CSCI2720 Comment System</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- TODO: link to external JS file here -->
+<script src="script.js"></script>
+</head>
+<body>
+  <div class="container m-5">
+    
+    <div> <!-- allow div to grow and take up all space-->
+      <h4>Post something for fun</h4>
+    </div>
+
+    <hr>
+    <h6>Add your info:</h6>
+    <form>
+    <div class="mb-3">
+      <label for="new-id" class="form-label">Login ID</label>
+      <input type="email" class="form-control" id="new-id" placeholder="no-one">
+    </div>
+
+    <div class="mb-3">
+      <label for="new-event" class="form-label">Event ID</label>
+      <input type="email" class="form-control" id="new-event" placeholder="1"></input>
+    </div>
+
+    <div class="mb-3">
+      <label for="new-loc" class="form-label">Loc ID</label>
+      <input type="email" class="form-control" id="new-loc" placeholder="shb1123"></input>
+    </div>
+    
+    <button type="button" class="btn btn-primary" onclick="processform()">POST it now</button>
+    
+    </form>
+  </div>
+
+</body>
+</html>

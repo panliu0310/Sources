@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://www.cse.cuhk.edu.hk/~chuckjee/2720lab3/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>CSCI2720 Comment System</title>
+<link href="./index_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- TODO: link to external JS file here -->
+<script src="script.js"></script>
+</head>
+<body>
+  <div class="container m-5">
+    <div id="comments"> 
+      <div id="c1001" class="d-flex"> <!-- flex layout -->
+        <div class="flex-shrink-0"> <!-- disallow div to shrink when page gets smaller -->
+          <svg height="100" width="100">
+            <circle cx="50" cy="50" r="40" fill="green">
+          </circle></svg>
+        </div>
+        <div class="flex-grow-1"> <!-- allow div to grow and take up all space -->
+          <h5>chuckjee@cse.cuhk.edu.hk</h5>
+          <p>This lab is so fun! Let's explore further with Bootstrap and JS fetch.</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h6>Add your comment:</h6>
+    <form>
+    <div class="mb-3">
+      <label for="new-email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="new-email" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="new-comment" class="form-label">Comment</label>
+      <textarea class="form-control" id="new-comment" rows="3"></textarea>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="new-color" id="new-color-red" value="red">
+      <label class="form-check-label" for="new-color-red">Red</label>
+    </div>
+      <!-- TODO: Add more choices here with div/input/label -->
+    <button type="button" class="btn btn-primary" onclick="processform()">Add comment</button>
+    <button type="button" class="btn btn-primary" onclick="loadfile()">Load file</button>
+    </form>
+  </div>
+
+
+</body></html>
