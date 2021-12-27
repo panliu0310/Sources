@@ -55,7 +55,51 @@ This course is concerned with the development of web applications. The major top
 
 2020-2021 Term 2
 
+Description：
 
+This course introduces software life-cycles: system modelling, requirements analysis and specifications, design techniques, implementation methodology, testings, maintenance and engineering laboratory. Analytical tools: software metrics, system performance measurement and evaluation. Management techniques: estimations, planning, project management, communication skills and documentations. Introductions to CASE tools and security.
+
+Learning Outcome：
+
+1. Students will know how to apply state of the art methodology in software design, development, measurement and evaluation for large-scale software systems;
+
+2. Students will know what are the following software engineering techniques: 
+
+- software management; 
+
+- software requirement engineering;
+
+- specification techniques;
+
+- structured design;
+
+- Unified Modeling Language (UML);
+
+- Design Patterns;
+
+- structured programming;
+
+- top-down design and development;
+
+- segmentation and modularization techniques;
+
+- information hiding;
+
+- iterative enhancement;
+
+- design and code inspection techniques;
+
+- correctness;
+
+- software validation and verification techniques;
+
+- software metrics;
+
+- software reliability measurement;
+
+- data collection and analysis;
+
+3. Students will learn how to apply software engineering techniques for the development of large software projects.
 
 # **CSCI3260**
 ## Principles of Computer Graphics
