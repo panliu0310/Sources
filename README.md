@@ -117,9 +117,22 @@ Learning Outcome：
 3. Insight with both the UNIX and the Windows operating systems
 
 # **CSCI3170**
-## 
+## Introduction to Database Systems
 
 2021-2022 Term 1
+
+Description：
+Concepts and principles of database management systems. Subjects include: basic concepts, system structures, data models, database languages (SQL in particular), relational database normalization, file systems, indexing, query processing, concurrency control and recovery schemes.
+
+Learning Outcome：
+The students will be able to
+1. Use an E-R diagram to model a database.
+2. Translate an E-R diagram into a relational model
+3. fine tune a relational schema based on the principles of relational database normalization
+4. Implement queries by using database languages (SQL in particular)
+5. understand file organizations and index structures of a DBMS.
+6. understand the ideas of query processing and query optimzation.
+7. understand the principles of concurrency control and recovery schemes
 
 # **CSCI3260**
 ## Principles of Computer Graphics
