@@ -1,6 +1,9 @@
-Sources repo
+Sources repository
 
-CSCI1540
+This public repository provides some sources of computer science courses. Hope this can help different students to learn computer science.
+
+# **CSCI1540**
+
 At the end of the course of studies, students will have acquired
 1. the skills to write, understand, compile and debug C++ programs;
 2. the skills to write programs using the basic programming elements such as variables, data types, selection and looping control structures, functions, and arrays;
