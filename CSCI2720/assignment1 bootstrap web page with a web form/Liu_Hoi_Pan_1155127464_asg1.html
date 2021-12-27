@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!--
+    Name: Liu Hoi Pan
+    Student ID: 1155127464
+-->
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-
+beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-
+giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekw
+KmP1" crossorigin="anonymous">
+
+<title>Liu Hoi Pan's Page</title>
+
+<script src="Liu_Hoi_Pan_1155127464_asg1.js"></script>
+<script>
+window.onscroll = function() {task3ScrollBar()};
+window.onload = function() {loadfile()}; // auto load comment
+</script>
+
+</head>
+
+<body>
+
+<header class="container" style="background-image:url('img_lights.jpg'); background-size:cover; background-position: center;">
+    <h1 class="display-1 text-light">Liu Hoi Pan's Page</h1>
+    <h4 class="display-4 text-light">CSCI2720</h2>
+</header>
+
+<nav>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link bg-warning text-dark" href="#Introduction">Introduction</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-primary text-white" href="#MyHobbies">My Hobbies</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-success text-dark" href="#MyCourses">My Courses</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link bg-white" onclick="task0()">Special!</a>
+        </li>
+    </ul>
+</nav>
+
+<br>
+
+<nav id="special" style="display: none">
+    <ul class="nav justify-content-center p-3" style="background-color:aqua">
+        <li class="nav-item">
+            <button onclick="task1()">Task 1: Align</button>
+        </li>
+        <li class="nav-item">
+            <button onclick="task2()">Task 2: New Hobby</button>
+        </li>
+        <li class="nav-item">
+            <button onclick="task3ShowBar()">Task 3: Scroll</button>
+        </li>
+    </ul>
+</nav>
+
+<div class="progress sticky-top" id="task3progressbox" style="visibility: hidden">
+    <div class="progress-bar" id="task3progressbar" style="width: 0" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+<br>
+
+<div class="container">
+    <div class="row">
+        <section class="text-center col-sm col-lg-8 col-xl-6 p-1 p-lg-3" style="background-color: rgb(250, 247, 83)" id="Introduction">
+            <h1 class="sectionHeading bg-warning text-start">Introduction</h1>
+            <p>
+                <picture>
+                    <img src="liuhoipan.jpeg" width="150" height="150">
+                </picture>
+            Hi My name is Liu Hoi Pan. This is my page.<br>
+            I am a student in CUHK, major in Mathematics, minor in Computer Science.<br>
+            This is my course CSCI2720 assignment 1: bootstrap web page with a web form.<br>
+            So in here, I am going to make a beautiful page, hope you would like it.
+            </p>
+        </section>
+
+        <section class="text-center bg-info col-sm col-lg-8 col-xl-6 p-1 p-lg-3" id="MyHobbies">
+            <h1 class="sectionHeading bg-primary text-white text-start">My Hobbies</h1>
+            <div class="d-flex flex-wrap" id="task2hobby">
+                <div class="m-2 p-3 bg-primary">Playing boardgame</div>
+                <div class="m-2 p-3 bg-primary">Hiking</div>
+                <div class="m-2 p-3 bg-primary">Riding Bicycle</div>
+            </div>
+        </section>
+
+    </div>
+</div>
+
+<div class="container text-center" id="MyCourses">
+    <h1 class="sectionHeading bg-success text-start">My Courses</h1>
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th>Course Code(Maths)</th>
+            <th>Course Title</th>
+            <th>Course Code(CS)</th>
+            <th>Course Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MATH3060</td>
+            <td>Mathematical Analysis III</td>
+            <td>CSCI1540</td>
+            <td>Fund Comp With C++</td>
+          </tr>
+          <tr>
+            <td>MATH3230</td>
+            <td>Numerical Analysis</td>
+            <td>CSCI2510</td>
+            <td>Computer Organization</td>
+          </tr>
+          <tr>
+            <td>MATH3270</td>
+            <td>Ordinary Diff Equations</td>
+            <td>CSCI2520</td>
+            <td>Data Structures and Applications</td>
+          </tr>
+          <tr>
+            <td>MATH3310</td>
+            <td>Computational & Applied Maths</td>
+            <td>CSCI2720</td>
+            <td>Building Web Applications</td>
+          </tr>
+          <tr>
+            <td>MATH4060</td>
+            <td>Complex Analysis</td>
+            <td>CSCI3100</td>
+            <td>Software Engineering</td>
+          </tr>
+          <tr>
+            <td>MATH4220</td>
+            <td>Partial Differential Equations</td>
+            <td>CSCI3260</td>
+            <td>Principles of Comp Graphics</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+<div class="container text-start" id="Responsive">
+    <h1 class="sectionHeading bg-dark text-white text-start">RESPONSIVE WEB FEATURES!</h1>
+    <p class="p-3">Feature 1: The elements of sections of "Introduction" and "My Hobbies" will resize according to the screen width.</p>
+    <p class="p-3">Feature 2: The flexbox in the section of "My Hobbies" will wrap to next line if needed.</p>
+    <p class="p-3">Feature 3: The among us figure below will change accroding to screen size! You may see a rainbow colour!
+        <br>Easter Egg: The colour are adjusted accroding to wavelength of colour.
+    </p>
+</div>
+
+<picture>
+    <source media="(min-width: 740px)" srcset="white.jpg">
+    <source media="(min-width: 625px)" srcset="red.jpg">
+    <source media="(min-width: 580px)" srcset="orange.jpg">
+    <source media="(min-width: 565px)" srcset="yellow.jpg">
+    <source media="(min-width: 520px)" srcset="green.jpg">
+    <source media="(min-width: 500px)" srcset="cyan.jpg">
+    <source media="(min-width: 430px)" srcset="blue.jpg">
+    <source media="(min-width: 380px)" srcset="purple.jpg">
+    <img src="black.jpg" style="width:auto;" class="rounded mx-auto d-block">
+</picture>
+
+<div class="p-3"><h1>Comment</h1></div>
+
+<div class="container m-5">
+    <div id="comments"> 
+        <div id="c1001" class="d-flex">
+            <div class="flex-shrink-0">
+                <svg height="100" width="100">
+            <circle cx="50" cy="50" r="40" fill="green">
+                </circle></svg>
+            </div>
+            <div class="flex-grow-1">
+                <h5>chuckjee@cse.cuhk.edu.hk</h5>
+                <p>This page is cool!</p>
+            </div>        
+        </div>
+    </div>
+    <hr>
+    <h6>Add your comment:</h6>
+
+    <form class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label for="new-email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="new-email" placeholder="name@example.com" required>
+            <div class="valid-feedback">
+            OK!
+            </div>
+            <div class="invalid-feedback">
+            Incorrect email format (not x@y)
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="new-comment" class="form-label">Comment</label>
+            <textarea type="text" class="form-control" id="new-comment" placeholder="Hello World!" rows="3" required></textarea>
+            <div class="valid-feedback">
+            OK!
+            </div>
+            <div class="invalid-feedback">
+            Empty comment
+            </div>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="new-color" id="new-color-red" value="red">
+            <label class="form-check-label" for="new-color-red">Red</label>
+        <br>
+            <input class="form-check-input" type="radio" name="new-color" id="new-color-green" value="green">
+            <label class="form-check-label" for="new-color-green">Green</label>
+        <br>
+            <input class="form-check-input" type="radio" name="new-color" id="new-color-yellow" value="yellow">
+            <label class="form-check-label" for="new-color-yellow">Yellow</label>
+        <br>
+            <input class="form-check-input" type="radio" name="new-color" id="new-color-blue" value="blue">
+            <label class="form-check-label" for="new-color-blue">Blue</label>
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="processform()">Add comment</button>
+    </form>
+</div>
+
+<p id="loading"></p>
+
+<footer class="text-end text-light bg-dark p-2 mt-sm-3">
+    This website was built on <time>2021-02-26</time>. <b>&copy; Liu Hoi Pan</b>
+</footer>
+
+</body>
+</html>

@@ -39,6 +39,17 @@ internally using assembly language.
 
 This course formally examines the relationship between abstract data types and data structures. The implementation of abstract data type using various data structures will be discussed. Sample abstract data types including vector, list, stack, queueand tree will be introduced and illustrated with applications such as searching, sorting, etc.
 
+# **CSCI2720**
+## Building Web Applications
+
+2020-2021 Term 2
+
+This course is concerned with the development of web applications. The major topics include 
+1. Building blocks of web applications
+2. Client-side/front-end technologies
+3. Server-side/back-end technologies
+4. Web application design and security issues.
+
 # **CSCI3260**
 ## Principles of Computer Graphics
 2020-2021 Term 1
