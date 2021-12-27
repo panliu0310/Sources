@@ -50,8 +50,16 @@ This course is concerned with the development of web applications. The major top
 3. Server-side/back-end technologies
 4. Web application design and security issues.
 
+# **CSCI3100**
+## Software Engineering
+
+2020-2021 Term 2
+
+
+
 # **CSCI3260**
 ## Principles of Computer Graphics
+
 2020-2021 Term 1
 
 Description：
