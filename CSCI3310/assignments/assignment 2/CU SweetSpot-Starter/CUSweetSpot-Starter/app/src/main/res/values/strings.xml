@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CU Sweet Spot</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="sweetname_edit">Sweet Name</string>
+    <string name="resto_label">Restaurant</string>
+    <string name="resto_full_name">Location at CU Map</string>
+    <string name="map_link">CU Map</string>
+    <string name="rating_label">Rating</string>
+
+</resources>

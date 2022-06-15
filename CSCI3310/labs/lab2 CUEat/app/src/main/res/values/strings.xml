@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CU Eat</string>
+    <string name="intro_text">My Cuisine</string>
+    <string name="kebab">Chicken Tikka Kebab</string>
+    <string name="pizza">Supreme Pizza</string>
+    <string name="kebab_details_message">You picked a kebab.</string>
+    <string name="pizza_details_message">You picked a pizza.</string>
+</resources>
