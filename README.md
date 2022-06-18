@@ -168,3 +168,18 @@ Students will be able to:
 1. understand technical differences between mobile and desktop application development;
 2. appreciate various innovative designs in mobile applications;
 3. design and develop mobile applications.
+
+# **CSCI4120**
+## 	Principles of Computer Game Software
+
+2021-2022 Term 2
+
+Description：
+
+This course aims at establishing the principles, techniques and tools in the design and development of computer game software with focus on the real time performance consideration. Topics include: stages in computer game development, concept of game engine, rendering considerations, physics effects, artificial intelligence (AI), audio effects, scripting and environment for game project development.
+
+Learning Outcome：
+1. able to implement simple walkthrough programs
+2. able to write simple shader program for GPU
+3. able to use a game engine to build a complete computer game software
+4. able to incorporate various game design principles in the final product
