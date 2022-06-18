@@ -152,3 +152,19 @@ Learning Outcome：
 3. Be able to perform interactive graphics programming in OpenGL;
 
 4. Be able to produce a short animation sequence;
+
+# **CSCI3310**
+## Mobile Computing and Applications Development
+
+2021-2022 Term 2
+
+Description：
+
+This course aims at introducing various development considerations in mobile applications. Topics include: Fundamental concepts in user interface design, mobile file systems, networking and security issues, energy saving consideration in mobile application development. Graphics programming on mobile devices such as OpenGL ES will also be discussed.
+
+Learning Outcome：
+
+Students will be able to:
+1. understand technical differences between mobile and desktop application development;
+2. appreciate various innovative designs in mobile applications;
+3. design and develop mobile applications.
